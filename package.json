@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "react-chatbot-kit": "^2.1.2"
+  },
+
+  "scripts": {
+    "start": "cd chat-interface && npm install && npm start"
+  }
+}
