@@ -132,5 +132,14 @@ function App() {
         </div>
     );
 }
+// const express = require("express");
+// const app = express();
+// const PORT = process.env.PORT || 3000; // Utiliza el puerto proporcionado por Heroku o el puerto 3000 si no está definido
+
+// // Configura tus rutas y middleware aquí
+
+// app.listen(PORT, () => {
+//     console.log(`Servidor escuchando en el puerto ${PORT}`);
+// });
 
 export default App;
