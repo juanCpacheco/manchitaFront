@@ -26,7 +26,8 @@ class ActionProvider {
     }
 
     addNewResponseMessage(message) {
-        const url = "http://127.0.0.1:5000/answer";
+        // const url = "http://127.0.0.1:5000/answer";
+        const url = "https://manchitaback.azurewebsites.net/answer";
         // const url = 'https://back-chatbot-manchita-2c99fa13ebff.herokuapp.com/answer';
         const req = this.convertToMessages(message);
         const requestOptions = {
